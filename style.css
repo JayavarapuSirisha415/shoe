@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+.product
+{
+    margin-left: 5px;
+    float: left;
+
+}
+.price{
+    margin-left: 5px;
+    width: 300px;
+    float: left;
+}
+.pr{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+   
+    
+}
+.button{
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.button:hover{
+color:black;
+background-color: white;
+}
+.color{
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-top: 9px;
+}
+.color-red{
+    background-color: red;
+}
+.color-blue{
+    background-color: rgb(47, 0, 255);
+}
+.color-pink{
+    background-color: rgb(187, 27, 128);
+}
+.color-green{
+    background-color: rgb(10, 137, 17);
+}
+
+
+.detail{
+width: 250px;
+float: right;
+}
+.article{
+    width: 900px;
+    border: 6px solid rgba(248, 242, 242, 0.973);
+}
+.free{
+    font-weight: bold;
+    float: right;
+    color: rgb(101, 24, 244);
+    text-transform: uppercase;
+}
